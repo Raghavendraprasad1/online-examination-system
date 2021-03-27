@@ -1,0 +1,360 @@
+body{
+    background-color: #b6b6b6;
+    font-family: Helvetica;
+    padding: 0px;
+    margin: 0px;
+}
+
+hr{
+    background-color: #b6b6b6;
+    height: 2px;
+}
+
+header{
+    background-color: #cd2122;
+    margin-top: 0px;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 5px;
+    border-radius: 0px;
+    border-top: 1px solid #343a40;
+    color: rgb(200,200,200);
+    font-size: 1.5em;
+    display: block;
+}
+
+header a{
+    text-decoration: none;
+    background-color: #343a40;
+    color: rgb(220,220,220);
+    padding: 10px 20px 10px 80px;
+}
+
+header a:hover{
+    background-color: rgb(50,50,50);
+    border-right: 2px solid grey;
+}
+
+footer{
+    background-color: #343a40;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    color: lavender;
+    padding: 20px 0px;
+}
+
+nav{
+    background-color: #343a40;
+    background-image: url('design/back1.png');
+    margin-top: 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 0px 50px;
+    color: rgb(230,230,210);
+    font-size: 0.8em;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+nav li{
+    background-color: #343a40;
+    color: rgb(200,200,200);
+    border: 1px solid #343a40;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #343a40;
+    color: lavender;
+    border: 1px solid grey;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.0em;
+    display: block;
+}
+
+nav a:hover{
+    background-color: rgb(30,30,30);
+}
+
+main{
+    margin: 0px 12% 100px 12%;
+    padding: 20px;
+    background-color: #d6d6d6;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h2{
+    background-color: #343a40;
+    color: lavender;
+    padding: 10px 0px 10px 10px;
+	
+}
+
+.btn{
+    background-color: rgb(50,130,100);
+    color: lavender;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.thumbnail{
+    border: 1px solid teal;
+    border-radius: 2px;
+    margin: 20px;
+    width: 120px;
+}
+
+.thumbnail:hover{
+    border: 3px solid rgb(50,50,50);
+    border-radius: 2px;
+    margin: 18px;
+}
+
+.btn1, .btn1:link, .btn1:visited{
+    color: lightgrey;
+    background-color: rgb(40,20,20);
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 5px;
+    display: inline-block;
+}
+
+.btn2, .btn2:link, .btn2:visited{
+    background-color: #343a40;
+    color: lavender;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    text-decoration: none;
+}
+
+.btn3, .btn3:link, .btn3:visited{
+    color: lightgrey;
+    background-color: #341a40;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+}
+
+#reloadBtn{
+    text-decoration: none;
+    background-color: #343a40;
+    color: rgb(220,220,220);
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    border: 1px solid lavender;
+    position: relative;
+    left: 100px; bottom: 50px;
+}
+
+#reloadBtn:hover{
+    text-decoration: none;
+    background-color: #cd2122;
+    color: rgb(220,220,220);
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    border: 1px solid lavender;
+}
+
+#block1{
+    text-align: center;
+}
+
+#leftPane{
+    margin-right: 50px;
+}
+
+#rightPane{
+    margin-left: 50px;
+}
+
+.form1{
+    background-color: #404040;
+    padding: 30px 80px;
+    margin: 0 18% 100px 18%;
+    color: lightgreen;
+}
+
+.form1 textarea{
+    background-color: lavender;
+    width: 100%;
+    height: 100px;
+    border-radius: 2px;
+    font-size: 1.4em;
+}
+
+.form1 input[type="text"], .form1 input[type="number"], .form1 input[type="password"]{
+    background-color: lavender;
+    margin: 5px;
+    border-radius: 2px;
+    width: 90%;
+    height: 30px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.form1 input[type="radio"]{
+    width: 18px;
+    height: 18px;
+}
+
+.form1 input[type="submit"]{
+    background-color: rgb(230,20,20);
+    margin-top: 30px;
+    padding: 10px 40px 10px 40px;
+    color: lavender;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+.form2{
+    background-color: transparent;
+    border-radius: 4px;
+    color: black;
+    font-size: 1.2em;
+    border: 2px solid #505050;
+    padding: 50px;
+}
+
+.form2 textarea{
+    background-color: f6f6f6;
+    width: 85%;
+    margin: 10px;
+    height: 100px;
+    font-size: 1.1em;
+}
+
+.form2 input[type='text']{
+    width: 80%;
+    height: 25px;
+    font-size: 0.8em;
+}
+
+.form2 input[type='radio']{
+    width: 15px;
+    height:15px;
+}
+
+.form2 input[type='submit']{
+    width: 40%;
+    height: 40px;
+    font-size: 1.4em;
+    background-color: #343a40;
+    color: lavender;
+    margin: 10px;
+}
+
+#errorMsg{
+    text-align: center;
+    color: lavender;
+    background-color: rgb(230,50,50);
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 2.0em;
+}
+
+#successMsg, .noticeMsg{
+    text-align: center;
+    color: lavender;
+    background-color: rgb(10,100,25);
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 2.0em;
+}
+
+.tbl1{
+    border: 1px solid #343a40;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #343a40;
+    color: black;
+}
+
+.tbl1 tr{
+    background-color: rgb(120,120,120);
+}
+
+.tbl1 tr:nth-child(even){
+    background-color: rgb(140,140,140);
+}
+
+.tbl1 th{
+    text-align: left;
+    background-color: rgb(180,180,180);
+    padding: 10px;
+}
+
+.tbl1 td{
+    padding: 10px;
+    border: 1px solid rgb(100,100,100);
+}
+
+.tbl1 input[type="radio"]{
+    height: 20px;
+    width: 20px;
+}
+
+.dialog1, #dialogDelete, #dialogSuspend, #dialogSustain{
+    background-color: maroon;
+    position: fixed;
+    left: 10px; right: 10px; top: 10px; bottom: 10px;
+    text-align: center;
+    padding: 40px;
+    display: none;
+    color: rgb(200,200,200);
+    font-size: 1.2em;
+    border: 5px solid rgb(100,10,30);
+}
+
+.paging, .paging:visited{
+    background-color: #343a40;
+    border: 1px solid #743a40;
+    border-radius: 4px;
+    color: darkgrey;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.paging1, .paging1:visited{
+    background-color: #045c00;
+    border: 1px solid #743b90;
+    border-radius: 4px;
+    color: lavender;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#content1{
+    margin: 0px 6% 100px 6%;
+    background-color: white;
+}
+
+#content2{
+    margin: 0px 1% 100px 1%;
+    background-color: white;
+}
